@@ -1,0 +1,48 @@
+.container {
+    margin: 100px auto;
+}
+.waves-light {
+	margin-top: 10px;
+	margin-right: 37%;
+}
+.form-group.row {
+    position: relative;
+}
+
+.check {
+    position: absolute;
+    left: 25%;
+    top: 20px;
+    padding: 5px 24px; 
+    border-radius: 10px; 
+    background-color: #d80404; 
+    color: white; 
+    text-align:center; 
+    margin: 20px 0px 20px 0px; 
+    font-size: 19px;
+    z-index: 1;
+}
+
+.check::before {
+	content: " ";
+	border-left: 5px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 12px solid #d80404;
+	position: absolute;
+	top: -7px;
+	left: 19px;
+}
+.box-pre-img {
+    width: 200px;
+    display: inline-block;
+    margin-left: 32px;
+    border: 1px solid #6f6f6f;
+    box-shadow: 3px 3px 4px 1px #828282;
+}
+
+.box-pre-img img {
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
